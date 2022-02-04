@@ -63,18 +63,18 @@ public class Operadores {
 //				 AND &&
 //				 OR ||
 				
-				int oper1 = 2;
-				int oper2 = 2;
+				int oper1 = 4;
+				int oper2 = 4;
 				int oper3 = 4;
 				int oper4 = 3;
 				
-				if(oper1==oper2 && oper3==oper4 && msg == msg2) {
-					System.out.println("TODOS LOS VALORES SON IGUALES");
+				if(oper1==oper2 || oper3==oper4) {
+					System.out.println("todos los valores son iguales");
 				}else {
-					System.out.println("ALGUN VALOR ES DIFERENTE");
+					System.out.println("algun valor es diferente");
 				}
 				
-				if(oper1==oper2 || oper3==oper4) {
+				if(oper1==oper2 && oper3==oper4) {
 					System.out.println("TODOS LOS VALORES SON IGUALES");
 				}else {
 					System.out.println("ALGUN VALOR ES DIFERENTE");

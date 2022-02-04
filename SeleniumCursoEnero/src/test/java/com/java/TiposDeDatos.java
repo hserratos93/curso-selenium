@@ -10,8 +10,8 @@ public class TiposDeDatos {
 				byte var1 = 1; // Numerico entero
 				short var2 = 1; // Numerico entero
 				int var3 = 1; // Numerico entero (Entero) - Automation
-				long var4 = 1L; // Numerico entero - Automation
-				float var5 = 1.2f; // Numerico real
+				long var4 = 1L; // Numerico (Entero) - Automation
+				float var5 = 1.2f; // Numerico real (decimales)
 				double var6 = 2.223; // Numerico real (decimales) - Automation
 				char var7 = 'a'; // Caracter - Automation
 				boolean var8 = true; // Boleano - Automation - tiene dos valores TRUE / FALSE
@@ -38,6 +38,8 @@ public class TiposDeDatos {
 				int numero = 1;
 				String nombre = "Ricardo";
 				System.out.println(nombre + numero);	
+				
+			
 
 	}
 
