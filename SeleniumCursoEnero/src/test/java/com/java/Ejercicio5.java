@@ -23,7 +23,11 @@ String texto1 = "Es positivo";
 		
 			System.out.println(entero1 +" "+texto);
 			
-		}else {
+		}else if (entero1==0) {
+			
+			System.out.println("El cero es un valor null");
+		}
+		else {
 			
 			System.out.println(entero1 +" "+texto1);
 		}
@@ -32,10 +36,33 @@ String texto1 = "Es positivo";
 			
 			System.out.println(entero1+" es par");
 			
-		}else {
+		} 
+		else
+		{
 			System.out.println(entero1+" es impar");
 			
+		
+//			
+//			System.out.println("Ingresa el segundo nùmero:"+ " ");
+//			entero2 =validar.nextInt();
+//			
+//			if (entero1>entero2) {
+//			
+//				System.out.println(entero1 +" "+texto+" "+ entero2);
+//				
+//			}else if (entero1<entero2){
+//				
+//				System.out.println(entero2 +" "+texto1+" "+ entero1);
+//			
+//			}else {
+//			      System.out.println(entero2 +" "+texto2+" "+ entero1);
+//			      //System.out.println("Los nùmeros son iguales");
+//			}
 			
+			
+			
+			
+	
 		}
 	}
 	}

@@ -2,6 +2,8 @@ package com.java;
 
 import java.util.Scanner;
 
+import org.apache.poi.util.SystemOutLogger;
+
 public class Ejercicio4 {
 
 	public static void main(String[] args) {
@@ -26,35 +28,49 @@ public class Ejercicio4 {
 		
 			System.out.println(entero1 +" "+texto+" "+ entero2);
 			
-		}else {
+		}else if (entero1<entero2){
 			
 			System.out.println(entero2 +" "+texto1+" "+ entero1);
+		
+		}else {
+		      System.out.println(entero2 +" "+texto2+" "+ entero1);
+		      //System.out.println("Los nùmeros son iguales");
 		}
 		
-		if (entero1==entero2) {
-			//System.out.println(entero2 +" "+texto1+" "+ entero1);
-			System.out.println("Los nùmeros son iguales");
-		}
-//		}else {
-//			//System.out.println(entero2 +" "+texto1+" "+ entero1);
-//			//System.out.println("Los nùmeros son iguales");
-//		}
 			
 			
-		
-		
 		//determinar que nùmero es mayor
 		
 		int oper1 = 5;
-		int oper2 = 6;
+		int oper2 = 7;
 		String texto5 = "Mayor que";	
 		String texto6 = "Mayor que";
+		String texto7 = "Igual que ";
 		
 		if(oper1>oper2){
 			System.out.println(oper1+" "+texto5+" "+oper2);
-		}else {
+		}else if (oper1<oper2){
 			System.out.println(oper2+" "+texto6+" "+oper1);
+			
+		}else {
+			System.out.println(oper2+" "+texto7+" "+oper1);
 		}
+		
+		
+		// IF ELSE IF
+		
+		int x = 6;
+		int y = 6;
+		
+		if(x>y) {
+			System.out.println("X es mayor que Y");
+		}else if(x==y) {
+			System.out.println("Los numeros son iguales");
+		}else {
+			System.out.println("y es mayor a x");
+		}
+
+
 		
 		
 		}
