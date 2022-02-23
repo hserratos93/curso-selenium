@@ -25,26 +25,33 @@ public class barkingDog {
 	
 	
 	public void shouldWakeUp () {
-		if (hourOfDay >=0 && hourOfDay <=23) 
+		//if (hourOfDay >=0 && hourOfDay <=23) {
 			
 		
-			if (barking=true && (hourOfDay<8 || hourOfDay>=22))
-{
+			if (hourOfDay<0 || hourOfDay>23)
+          {
+	            	barking=false;
+	            	//System.out.println(barking);
+			
+	      }else if (barking==true && (hourOfDay<8 || hourOfDay>22))
+			  
+          {
                 barking=true;
                 System.out.println("Despierta, el perro està ladrando");
                 
-               // if (hourOfDay<0 && hourOfDay>23)
-//                {
-//                	barking=false;
-//                	System.out.println(barking);
-                	      
+              }else if (barking==false && (hourOfDay<8 || hourOfDay>22)) {
+            	
+        	     barking=false;
+                
                           
 		}else
+			
 			barking=false;
+			
 		    System.out.println(barking);
 		
 }	
+	
+}
 		
-		
-	}
 

@@ -67,9 +67,9 @@ public class Ciclos {
 			
 			int numeroLimite = 100;
 			
-			//int i - inicializador //i<=numeroLimite - Condicional //i++ - incrementador
+			//int i - inicializador //i<=numeroLimite - Condicional //i++ - aumento/decremento
 			
-			for(int i=10;i<=numeroLimite; i+=10) {
+			for(int i=10;i<=100; i++) {
 				System.out.println("El numero FOR es "+i);
 				
 			}
